@@ -8,7 +8,7 @@ public class Schedule {
 	
 	public Schedule(int games, Conference conf){
 		//initialize from games and conf
-	}
+	}// Schedule(int games, Conference conf)
 	
 	public void generateSchedule(){
 		//algorithm to generate schedules
@@ -34,12 +34,12 @@ public class Schedule {
 		 *    This again gets repeated for the number of dates d and the number of tries t.
 		 *    So the "running time" will be O(t*d*n^2), or O(n^2), but with a very big coefficient. 
 		 */
-	}
+	}// generateSchedule()
 	
 	public String scheduleToString(){
 		//makes schedule into a string
 		String s1 = "not implemented";
 		return s1;
-	}
+	}// scheduleToString()
 	
-}
+}// class
