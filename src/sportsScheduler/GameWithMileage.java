@@ -13,5 +13,5 @@ public class GameWithMileage extends Game {
 	public GameWithMileage(Team home, Team away, int miles){
 		super(home, away);
 		this.mileage = miles;
-	}
-}
+	}// GameWithMileage(Team home, Team away, int miles
+}// class
