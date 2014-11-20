@@ -24,20 +24,20 @@ public class Expt
       System.out.println(mwc.teams[i].toString());
       for(int j = 0; j < mwc.teams[i].restrictions.length; j++){
         System.out.print(mwc.teams[i].restrictions[j] + " ");
-      }
+      }// for j
       System.out.println();
-    }
+    }// for i
     for(int j = 0; j < mwc.datesOfCompetition.length; j++){
       System.out.println(mwc.datesOfCompetition[j].toString());
-    }
+    }// for j
     
     mwc.readMileage("milage.txt");
     for(int i = 0; i < mwc.teams.length; i++){
       for(int j = 0; j < mwc.teams.length; j++){
         System.out.print(mwc.mileage[i][j] + " ");
-      }
+      }// for j
       System.out.println();
-    }
+    }// for i
   }
 
 }
