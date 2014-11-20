@@ -80,7 +80,7 @@ public class Conference
         String dateString = sc2.nextLine();
         this.datesOfCompetition[j] = new Date(dateString);
       }// for j
-  }
+  }// Conference(String confData, String dateData, int numTeams, int numDates)
   
   /**
    * Fills in a 2-d array with mileage data from file inputs and integers for team mileage.
@@ -117,4 +117,4 @@ public class Conference
     //puts them in gamesList
   }// generateGamesList()
 
-}
+}// class
