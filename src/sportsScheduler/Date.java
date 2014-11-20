@@ -20,12 +20,12 @@ public class Date
       {
         //presumably, using 2 digit year format
         this.year = yy + 2000;
-      }
+      }// if
     else
       {
         this.year = yy;
-      }
-  }
+      }// else
+  }// Date(int mm, int dd, int yy)
 
   public Date(String dateString)
   {
@@ -36,20 +36,20 @@ public class Date
     if (yr < 100)
       {
         this.year = yr + 2000;
-      }
+      }// if
     else
       {
         this.year = yr;
-      }
-  }
+      }// else
+  }// Date(String dateString)
 
   public String toString()
   {
     String returnString = this.month + "/" + this.day + "/" + this.year;
     return returnString;
-  }
+  }// toString()
   
   public boolean equals (Date day){
     return (day.day == this.day && day.month == this.month && day.year == this.year);
-  }
+  }// equals (Date day)
 }
