@@ -48,7 +48,7 @@ public class Team
   {
     this.name = teamName;
     this.acronym = ac;
-  }
+  }// Team(String teamName, String ac)
 
   //inits all things for team from file
   public Team(String filePath) throws FileNotFoundException
@@ -70,14 +70,14 @@ public class Team
     for (int i = 0; i < restrictionCodes.length; i++)
       {
         this.restrictions[i] = Integer.parseInt(restrictionCodes[i]);
-      }
-  }
+      }// for i
+  }// Team(String filePath)
 
   public void setRestrictions(int[] restrict)
   {
     //set restrictions if not initialized in constructor
     this.restrictions = restrict;
-  }
+  }// setRestrictions(int[] restrict)
 
   public void getGameTypes()
   {
@@ -86,11 +86,11 @@ public class Team
 
     //Will read through the gamesList in the conference class
     //and find games involving the team and categorize them appropriately
-  }
+  }// getGameTypes()
 
   public String toString()
   {
     return this.acronym + " - " + this.name;
-  }
+  }// toString() 
 
-}
+}// class
