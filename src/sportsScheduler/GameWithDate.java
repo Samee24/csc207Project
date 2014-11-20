@@ -16,7 +16,7 @@ public class GameWithDate
   {
     super(home, away);
     this.gameDay = gd;
-  }
+  }// GameWithDate(Team home, Team away, Date gd)
 
   public String toString()
   {
@@ -24,5 +24,5 @@ public class GameWithDate
         this.gameDay.toString() + " - " + this.awayTeam.name + " vs. "
             + this.homeTeam.name;
     return returnString;
-  }
-}
+  }// toString()
+}// class
